@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
-/*
-Este programa pede um nome e um numero ao usuario,
-e depois calcula a soma de todos os numeros ate o numero digitado.
-*/
 int main() {
+ setlocale(LC_ALL, "Portuguese");
     char nome[10];
     int numero;
     int soma = 0;

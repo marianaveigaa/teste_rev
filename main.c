@@ -5,6 +5,7 @@
 Este programa pede um nome e um numero ao usuario,
 e depois calcula a soma de todos os numeros ate o numero digitado.
 */
+// aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa//
 int main() {
     char nome[10];
     int numero;
